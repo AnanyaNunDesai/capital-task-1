@@ -1,0 +1,17 @@
+.image-area {
+    width: 100%;
+    height: 20rem;
+    overflow: hidden;
+}
+
+image-gradient {
+    background-color: linear-gradient(to bottom, green, blue);
+}
+
+.remove-image {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    color: #A80000;
+    cursor: pointer;
+}

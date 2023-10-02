@@ -1,0 +1,37 @@
+
+.app-flow {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0.1rem 0 0.5rem rgba(0, 0, 0, 0.1);
+    margin: 5% 0% 0% 5%;
+    height: 6rem;
+    width: 100%;
+}   
+  
+.section {
+    width: 14%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.active {
+    background-color: #00635B;
+    border-radius: 5px;
+    height: 100%;
+    width: 20%;
+    display: flex;
+    align-items: center;
+}
+
+.active-text {
+    color: white;
+}
+
+.line {
+    width: 0.1%;
+    height: 80%;
+    background-color: rgba(200, 200, 200, 0.5);
+}
